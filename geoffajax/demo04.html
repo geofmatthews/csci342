@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript">
+  
+  // Asynchronous requests as shown in example 12.9
+  function downloadTextAsynch(url, fn) {
+	var ajax = new XMLHttpRequest();
+	ajax.onreadystatechange = function () {
+		// check to see if we changed to state 4:
+		if (ajax.readyState == 4) { 
+			if (ajax.status != 200) {
+				alert("Error fetching page  " + url + ":\n" + ajax.status + " " + ajax.statusText)
+			} else {
+				fn(ajax);
+			}
+		}
+	}
+	ajax.open("GET", url, true);
+	ajax.send(null);
+  };
+  
+  window.onload = function(){
+	document.getElementById("pressme").onclick = function() {
+		downloadTextAsynch("dummy.html", function(ajax) {
+			document.getElementById("pagearea").innerHTML = ajax.responseText;
+		});  // Note that we're closing a function, 
+		     // but also that the function is an argument to a function.
+	}
+	};
+
+  </script>
+  </head>
+  
+  <body>
+  <button id="pressme"> Press me! </button>
+  <div id="pagearea" style="border : solid">
+  <h1> Here's where the page should go! </h1>
+  </div>
+  </body>
+</html>

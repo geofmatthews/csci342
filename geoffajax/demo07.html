@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="prototype.js"></script>
+  <script type="text/javascript">
+  
+  // Prototype Ajax.Request as shown in example 12.12
+  
+  window.onload = function(){
+	document.getElementById("pressme").onclick = function() {
+		var url = "dummy.html";
+		new Ajax.Request(url,
+			{ 
+				method : "get",
+				onSuccess : function (ajax) {
+					document.getElementById("pagearea").innerHTML = ajax.responseText
+				},
+				onFailure : function (ajax, exception) {
+					var msg = "Error making Ajax request:\n\n";
+					if (exception) {
+						msg += "Exception: " + exception.message;
+					} else {
+						msg += "Server status:\n" + ajax.status + " " + ajax.statusText +
+							"\n\nServer response text:\n" + ajax.responseText;
+					}
+					alert(msg);  // alerts probably bad idea.  Give the user a nice error expericence!
+				}
+			})
+		}
+	}
+
+  </script>
+	
+  </head>
+  
+  <body>
+  <button id="pressme"> Press me! </button>
+  <div id="pagearea" style="border : solid">
+  <h1> Here's where the page should go! </h1>
+  </div>
+  </body>
+</html>
