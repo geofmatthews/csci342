@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.31)  31 OCT 2016 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.31)  1 NOV 2016 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,15 +295,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+
+LaTeX Warning: Reference `screenshot' on page 1 undefined on input line 20.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 81.
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/screenshot.png, id=15, 934.99312pt x 760.34062pt>
+<images/screenshot.png, id=13, 934.99312pt x 760.34062pt>
 File: images/screenshot.png Graphic file (type png)
 
 <use images/screenshot.png>
@@ -317,12 +319,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `hw03.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
  5845 strings out of 494910
  87099 string characters out of 6179836
- 176320 words of memory out of 5000000
+ 176271 words of memory out of 5000000
  9116 multiletter control sequences out of 15000+600000
  4462 words of font info for 17 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -332,10 +341,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw03.pdf (3 pages, 464007 bytes).
+Output written on hw03.pdf (3 pages, 464146 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
