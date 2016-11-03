@@ -1,0 +1,26 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Readings}{2}{0}{1}
+\beamer@sectionintoc {2}{Model View Controller (MVC)}{3}{0}{2}
+\beamer@sectionintoc {3}{Model View Controller (MVC)}{4}{0}{3}
+\beamer@sectionintoc {4}{Model View Controller (MVC)}{5}{0}{4}
+\beamer@sectionintoc {5}{Model View Controller (MVC)}{6}{0}{5}
+\beamer@sectionintoc {6}{MVC philosophy can be applied on many levels}{7}{0}{6}
+\beamer@sectionintoc {7}{HTML, CSS and Browser represent MVC}{8}{0}{7}
+\beamer@sectionintoc {8}{Model View Controller (MVC)}{9}{0}{8}
+\beamer@sectionintoc {9}{Model View Controller (MVC)}{10}{0}{9}
+\beamer@sectionintoc {10}{The Golden Rule of MVC}{11}{0}{10}
+\beamer@sectionintoc {11}{Example 1: Address Book}{12}{0}{11}
+\beamer@sectionintoc {12}{Example 2: Address Book using MVC}{13}{0}{12}
+\beamer@sectionintoc {13}{What is the advantage of MVC?}{14}{0}{13}
+\beamer@sectionintoc {14}{Continuing our address book example}{15}{0}{14}
+\beamer@sectionintoc {15}{Handling the new task with MVC in place}{16}{0}{15}
+\beamer@sectionintoc {16}{Handling the new task without MVC in place}{17}{0}{16}
+\beamer@sectionintoc {17}{More changes and the wonderfulness of MVC }{18}{0}{17}
+\beamer@sectionintoc {18}{More changes without MVC}{19}{0}{18}
+\beamer@sectionintoc {19}{Can we put the controller code in the view?}{20}{0}{19}
+\beamer@sectionintoc {20}{MVC can make the view reusable}{21}{0}{20}
+\beamer@sectionintoc {21}{Web sites under MVC}{22}{0}{21}
+\beamer@sectionintoc {22}{Web sites under MVC}{23}{0}{22}
+\beamer@sectionintoc {23}{Virtues of Separating MVC}{24}{0}{23}
+\beamer@sectionintoc {24}{Virtues of Separating MVC}{25}{0}{24}

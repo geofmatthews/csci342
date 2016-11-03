@@ -1,0 +1,9 @@
+\frametitle{Virtues of Separating MVC} 
+The other problem is there is no way to do multiple site skins
+properly if you don't have proper separation of concerns. If you are
+doing code generation or sites with different skins on them, there is
+no way to properly make a new skin by simply copying and pasting the
+old skin and changing it. If you have the view and the logic together,
+when you make a copy of the view you copy the logic as well. That
+breaks one of our primary rules as developers: have only one place to
+change anything.
