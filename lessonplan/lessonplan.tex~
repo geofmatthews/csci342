@@ -1,0 +1,186 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\title{Lesson Plan for CSCI 342}
+\author{Geoffrey Matthews}
+
+
+
+\begin{document}
+\maketitle
+\begin{description}
+\item[Software]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.apachefriends.org/index.html}
+  \item\small\url{https://nodejs.org/en/}
+  \item\small\url{https://www.djangoproject.com/}
+  \end{itemize}
+
+\item[HTML]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/html}
+  \item\small\url{https://www.tutorialspoint.com/html}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/HTML}
+  \item\small\url{http://html.com/}
+  \item\small\url{http://www.learn-html.org/}
+  \item\small\url{https://www.quackit.com/html/tutorial/}
+  \item\small\url{http://htmldog.com/guides/html}
+  \item\small\url{https://www.codecademy.com/learn/learn-html}
+  \item\small\url{https://www.khanacademy.org/computing/computer-programming/html-css#intro-to-html}
+  \end{itemize}
+  
+\item[CSS]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/css}
+  \item\small\url{https://www.tutorialspoint.com/css}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/CSS}
+  \item\small\url{https://www.csstutorial.net/}
+  \item\small\url{http://htmldog.com/guides/css}
+  \item\small\url{https://www.codecademy.com/courses/css-coding-with-style/0/1}
+  \end{itemize}
+
+\item[PHP]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/php}
+  \item\small\url{https://www.tutorialspoint.com/php}
+  \item\small\url{http://htmldog.com/guides/php}
+  \item\small\url{http://php.net/manual/en/tutorial.php}
+  \item\small\url{http://www.tizag.com/phpT/}
+  \end{itemize}
+
+\item[Forms]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/html/html_forms.asp}
+  \item\small\url{https://www.tutorialspoint.com/html/html_forms.htm}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms}
+  \item\small\url{http://htmldog.com/guides/html/beginner/forms/}
+  \end{itemize}
+
+\item[Chrome DevTools]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://developer.chrome.com/devtools}
+  \item\small\url{https://www.codeschool.com/courses/discover-devtools}
+  \end{itemize}
+
+\item[Javascript]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/js/}
+  \item\small\url{https://www.tutorialspoint.com/javascript/}
+  \item\small\url{https://javascript.info/}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics}
+  \item\small\url{https://www.javascript.com/try}
+\end{itemize}
+
+\item[DOM]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/js/js_htmldom.asp}
+  \item\small\url{https://www.w3schools.com/js/js_dom_examples.asp}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction}
+  \item\small\url{https://dom-tutorials.appspot.com/static/index.html}
+  \item\small\url{https://javascript.info/dom-nodes}
+  \item\small\url{https://www.tutorialspoint.com/javascript/javascript_html_dom.htm}
+  \end{itemize}
+
+\item[jQuery]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/jquery/}
+  \item\small\url{https://www.tutorialspoint.com/jquery/}
+  \item\small\url{https://learn.jquery.com/}
+  \item\small\url{http://try.jquery.com/}
+  \item\small\url{http://jqfundamentals.com/}
+  \end{itemize}
+  
+\item[Events]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.tutorialspoint.com/javascript/javascript_events.htm}
+  \item\small\url{https://www.w3schools.com/js/js_events.asp}
+  \item\small\url{https://www.w3schools.com/jsref/dom_obj_event.asp}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events}
+  \item\small\url{https://www.quirksmode.org/js/introevents.html}
+  \end{itemize}    
+
+\item[Ajax, XML, JSON]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/xml/ajax_intro.asp}
+  \item\small\url{https://www.tutorialspoint.com/ajax/}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started}
+  \item\small\url{https://webdesign.tutsplus.com/tutorials/a-beginners-guide-to-ajax-with-jquery--cms-25126}
+  \item\small\url{https://www.xul.fr/en-xml-ajax.html}
+  \end{itemize}
+
+\item[MongoDB]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.tutorialspoint.com/mongodb/}
+  \item\small\url{https://www.w3schools.com/nodejs/nodejs_mongodb.asp}
+  \item\small\url{https://www.w3resource.com/mongodb/introduction-mongodb.php}
+  \item\small\url{https://www.codeschool.com/courses/the-magical-marvels-of-mongodb}
+  \item\small\url{https://scotch.io/tutorials/an-introduction-to-mongodb}
+  \end{itemize}
+
+\item[Cookies and Sessions]\mbox{}
+  \begin{itemize}
+  \item\small\url{http://www.tutorialspoint.com/listtutorials/php/cookies-and-sessions/1}
+  \item\small\url{https://www.w3schools.com/js/js_cookies.asp}
+  \item\small\url{http://www.lassosoft.com/Tutorial-Understanding-Cookies-and-Sessions}
+  \item\small\url{https://code.tutsplus.com/tutorials/an-introduction-to-cookies--net-12482}
+  \end{itemize}
+  
+
+\item[Web Security]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.tutorialspoint.com/internet_technologies/internet_security_overview.htm}
+  \item\small\url{https://www.tutorialspoint.com/webservices/web_services_security.htm}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Web/Security/Information_Security_Basics    }
+  \item\small\url{https://sites.google.com/site/ddmwsst/}
+  \end{itemize}
+
+\item[AngularJS]\mbox{}
+  \begin{itemize}
+    \item\small\url{https://www.tutorialspoint.com/angularjs/}
+    \item\small\url{https://www.w3schools.com/angular/}
+    \item\small\url{https://docs.angularjs.org/tutorial}
+  \end{itemize}
+  
+\item[Regular Expressions]\mbox{}
+  \begin{itemize}
+    \item\small\url{https://www.tutorialspoint.com/javascript/javascript_regexp_object.htm}
+    \item\small\url{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions}
+    \item\small\url{http://eloquentjavascript.net/09_regexp.html}
+    \item\small\url{https://javascript.info/regular-expressions}
+    \item\small\url{https://code.tutsplus.com/tutorials/you-dont-know-anything-about-regular-expressions-a-complete-guide--net-7869}
+  \end{itemize}
+  
+
+\item[Nodejs]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.w3schools.com/nodejs/}
+  \item\small\url{https://www.airpair.com/javascript/node-js-tutorial}
+  \item\small\url{http://www.tutorialsteacher.com/nodejs/nodejs-tutorials}
+  \item\small\url{https://www.guru99.com/node-js-tutorial.html}
+  \item\small\url{https://www.codeschool.com/courses/real-time-web-with-node-js}
+  \item\small\url{https://www.sitepoint.com/premium/courses/node-js-an-introduction-2866}
+  \item\small\url{https://www.sitepoint.com/jade-tutorial-for-beginners/}
+  \end{itemize}
+
+\item[ExpressJS]\mbox{}
+  \begin{itemize}
+    \item\small\url{https://www.tutorialspoint.com/expressjs/}
+    \item\small\url{https://expressjs.com/en/starter/basic-routing.html}
+    \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs}
+  \end{itemize}
+  
+
+\item[Django]\mbox{}
+  \begin{itemize}
+  \item\small\url{https://www.tutorialspoint.com/django/}
+  \item\small\url{https://www.djangoproject.com/start/}
+  \item\small\url{https://docs.djangoproject.com/en/1.11/intro/}
+  \item\small\url{https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website}
+  \end{itemize}
+
+\end{description}
+\end{document}
+
+
+
+
