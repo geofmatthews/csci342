@@ -31,7 +31,7 @@ in Figure \ref{screenshot}:
 This webpage will have the addition of a single input form at the top,
 allowing the user to pick the movie from a drop-down list of all
 available movies, and having that movie displayed when the user clicks
-the ``Select Movie'' button.
+the ``Select'' button.
 \item
 Your page does not have to match mine perfectly, in fact, it should
 match your solution to homework \#2.  You should take that file and
@@ -73,8 +73,10 @@ The Princess Bride
   for that line.  There are no line breaks other than between items.
 
   These items are to  be displayed as a definition list with a
-  definition list term \verb|(dt)| and its description \verb|(dt)|.
-  The number of lines in the file varies from movie to movie.  Example:
+  definition list term \verb|(dt)| and its description \verb|(dd)|.
+  The number of lines in the file varies from movie to movie.  Example
+  (I have let the long line overflow to the right to emphasize the
+  fact that this will be on a single line in the file):
 \begin{Verbatim}[frame=single]
 STARRING:Cary Elwes, Robin Wright, Andre the Giant, Mandy Patinkin
 DIRECTOR:Rob Reiner
@@ -110,11 +112,12 @@ emanuellevy.com
 
 \end{description}
 \item
-All the movie files should be in a folder called {\tt moviefiles} in
+All the movie folders should be in a folder called {\tt moviefiles} in
 the same folder as your {\tt tomayto.php}.  So, for example, the
 complete path to the Princess Bride image should be (starting from the
 same folder as your php file):\\
 \centerline{\tt moviefiles/princessbride/overview.png}
+The name of the folder is not important.
 \end{itemize}
 
 \paragraph{Your Own Movie:}
