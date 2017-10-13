@@ -14,7 +14,7 @@
 \paragraph{Due date:}
 \begin{itemize}
   \item
-Wednesday, October 12, midnight.  Submit on canvas.
+Friday, October 27, midnight.  Submit on canvas.
 \item Aip together all files, including images, so that the website
   is complete upon unzipping.  Do not zip the folder: after unzipping
   the files should be in the same folder as the zip file.
@@ -48,6 +48,7 @@ clean as possible.
 
 \paragraph{Appearance details:}
 \begin{itemize}
+\item The background color of the webpage is \verb|#ff9955|.
   \item
 All images used on the web page are in folders on the github site.
 \item
