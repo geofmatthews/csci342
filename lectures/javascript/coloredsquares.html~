@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  
+  <body>
+    
+<!--#include virtual="../header.html" -->
+
+	<link href="coloredsquares.css" rel="stylesheet" />
+	<script src="coloredsquares.js" type="text/javascript"></script>
+</head>
+  
+<body>
+
+<div id="squarearea"></div>
+<p>Click a square to move it to the front, or drag it around.</p>
+
+<!--#include virtual="../footer2.html" -->

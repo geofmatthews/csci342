@@ -1,0 +1,7 @@
+(function() {
+    "use strict";
+    var maxZ = 1000;
+    
+    window.onload = function() {
+	var size = parseInt(square.getStyle("width"));
+	
