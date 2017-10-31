@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <head>
+    <script>
+    function calcQuadratic() {
+    var a = document.getElementById('a').value;
+    var b = document.getElementById('b').value;
+    var c = document.getElementById('c').value;
+    var discriminant = b*b - 4*a*c;
+    var root1, root2;
+    if (discriminant < 0) {
+        root1 = "None";
+        root2 = "None";
+    } else {
+        root1 = (-b + Math.sqrt(discriminant))/(2*a);
+        root2 = (-b - Math.sqrt(discriminant))/(2*a);
+    }		       
+    document.getElementById('root1').innerHTML = root1;
+    document.getElementById('root2').innerHTML = root2;
+    }
+    </script>
+  </head>
+  <body>
+    <h1> Quadratic Formula Calculator! </h1>
+    <form name="calc" id="calc">
+      <label> A: <input type="text" name="a" id="a"></label>
+      <label> B: <input type="text" name="b" id="b"></label>
+      <label> C: <input type="text" name="c" id="c"></label>
+      <button type="button" id="mybutton" onclick="calcQuadratic()">
+	Calculate
+      </button>
+    </form>
+    <h2>Root1: <span id="root1"> </span> </h2>
+    <h2>Root2: <span id="root2"> </span> </h2>
+  </body>
+</html>
+
