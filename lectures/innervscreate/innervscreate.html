@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="main">
+      <div id="html">
+	<h1>
+	  This has a
+	  <a href="innervscreate.html">
+	    link.
+	  </a>
+	</h1>
+      </div>
+      
+      <div id="innerhtml">
+      </div>
+      
+      <script>
+        var txt = "";
+        txt += "<h1>\n";
+        txt += "This has a \n";
+        txt += '<a href="innervscreate.html">\n';
+        txt +=  "link.\n";
+        txt +=  "</a>\n";
+        txt += "</h1>\n";
+        var inner = document.getElementById("innerhtml");
+        inner.innerHTML = txt;
+      </script>
+      
+      
+      <script>
+	var elem = document.createElement("div");
+	elem.setAttribute("id","createelement");
+	var h1 = document.createElement("h1");
+	elem.appendChild(h1);
+	h1.appendChild(document.createTextNode("This has a "));
+	var anchor = document.createElement("a");
+	anchor.setAttribute("href","innervscreate.html");
+	anchor.innerHTML = "link.";
+	h1.appendChild(anchor);
+	var main = document.getElementById("main");
+	main.appendChild(elem);
+      </script>
+      
+    </div>
+  </body>
+</html>
+
+    
