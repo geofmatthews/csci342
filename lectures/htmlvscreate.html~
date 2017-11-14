@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="html">
+      <h1>
+	Here is a
+	<a href="htmlvscreate.html">
+	  link.
+	</a>
+      </h1>
+    </div>
+    
+    <div id="inner">
+    </div>
+
+    <script>
+      var creatediv = document.createElement("div");
+      createddiv.setAttribute("id", "create");
+      var h1 = document.creatElement("h1");
+      var text1 = document.createTextNode("Here is a ");
+      h1.appendChild(text1);
+      var anchor = document.createElement("a");
+      anchor.setAttribute("href","htmlvscreate.html");
+      h1.appendChild(anchor);
+      var text1 = document.createTextNode("link.");
+      h1.appendChild(text1);
+      
+      
+      

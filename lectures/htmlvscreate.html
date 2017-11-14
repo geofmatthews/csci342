@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <!-- Create what we want with HTML -->
+    <div id="html">
+      <h1>
+	Here is a
+	<a href="htmlvscreate.html">
+	  link.
+	</a>
+      </h1>
+    </div>
+    
+    <!-- Create an empty div and then fill it with a string -->
+    <div id="inner">
+    </div>
+
+    <script>
+      var content = "";
+      content += "<h1>\n";
+      content += "  Here is a \n";
+      content += '  <a href="htmlvscreate.html">\n';
+      content += "    link.\n";
+      content += "  </a>\n";
+      content += "</h1>\n";
+      var innerdiv = document.getElementById("inner");
+      innerdiv.innerHTML = content;      
+    </script>
+    
+    
+    <!-- Create the div and its contents as DOM elements -->
+    <script>
+      var creatediv = document.createElement("div");
+      creatediv.setAttribute("id", "create");
+      var h1 = document.createElement("h1");
+      var text1 = document.createTextNode("Here is a ");
+      h1.appendChild(text1);
+      var anchor = document.createElement("a");
+      anchor.setAttribute("href","htmlvscreate.html");
+      h1.appendChild(anchor);
+      var text1 = document.createTextNode("link.");
+      anchor.appendChild(text1);
+      document.body.appendChild(h1);
+    </script>
+  </body>
+</html>
+
+      
+      
+      
