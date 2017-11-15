@@ -26,8 +26,9 @@ using just HTML and CSS:
   to accomplish the first two ``Bonus Rounds'' as follows.
 
 \item For this assignment, use the Javascript DOM as much as possible.
-  Avoid printing HTML tags with your Javascript, and instead create
-  objects and attach them as children to existing objects in the page.
+  Use the {\tt createElement} procedures and not the {\tt innerHTML}
+  field.  Avoid printing HTML tags. Create objects and attach them as
+  children to existing objects in the page.
 
 \item Use Javascript arrays and for-loops to populate the page with
   penguins instead of hard coding every penguin in HTML.  This will
@@ -36,18 +37,14 @@ using just HTML and CSS:
 \item Choose the position of the Yeti with a random number.  Every
   time you play the game it will be in a different position.
   
-\item Add a text input at the top of the page to choose the number of
-  penguins (+ Yeti) in the game.  Validate that this is an integer between 2
-  and 64.  As soon as the user enters a number, the new game should
-  load (no submit button).  The currently chosen number of penguins (+
-  Yeti)  should remain in the text box while the game is played.
+\item Add a dropdown box at the top of the page to choose the number
+  of penguins (+ Yeti) in the game.  This will be an integer between 2
+  and 64. Construct this dropdown in javascript, and use a loop to add
+  all the numbers.  As soon as the user selects a new number, the new
+  game should load (no submit button). 
 
 \item Make the penguins stay up when clicked, and disappear when the
   Yeti is awoken.
-
-\item After the Alert panel is closed, focus should go back to the
-  number of penguins (+ Yeti) box, so the user can simply hit return
-  to play a new game (or change the number).
 
 \item Optional:  add real squawks, chirps, and roars.  
 
