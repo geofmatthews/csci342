@@ -35,10 +35,11 @@
 	h1.appendChild(document.createTextNode("This has a "));
 	var anchor = document.createElement("a");
 	anchor.setAttribute("href","innervscreate.html");
-	anchor.innerHTML = "link.";
+	anchor.appendChild(document.createTextNode("link."));
 	h1.appendChild(anchor);
-	var main = document.getElementById("main");
-	main.appendChild(elem);
+	elem.appendChild(h1);
+	var body = document.getElementsByTagName("BODY")[0];
+	body.appendChild(elem);
       </script>
       
     </div>
