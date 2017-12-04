@@ -1,0 +1,94 @@
+\documentclass{article}
+\pagestyle{empty}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyvrb}
+\usepackage{multicol}
+\setlength{\parindent}{0cm}
+
+
+\begin{document}
+Name \hrulefill Number \hrulefill\\
+CSCI 342 Pop Quiz \#5
+
+Circle all that the regular expressions match.
+
+\begin{multicols}{2}
+\begin{enumerate} 
+\item  \verb|/a(ab)*a/|
+\begin{enumerate} 
+\item \verb|     abababa|
+\item \verb|     aaba|
+\item \verb|     aabbaa|
+\item \verb|     aba|
+\item \verb|     aabababa|
+\end{enumerate} 
+\item  \verb|/ab+c?/|
+\begin{enumerate}
+\item \verb|     abc|
+\item \verb|     ac|
+\item \verb|     abbb|
+\item \verb|     bbc|
+\end{enumerate} 
+\item  \verb|/a.[bc]+/|
+ \begin{enumerate}
+\item \verb|     abc|
+\item \verb|     abbbbbbbb|
+\item \verb|     azc|
+\item \verb|     abcbcbcbc|
+\item \verb|     ac|
+\item \verb|     asccbbbbcbcccc|
+\end{enumerate} 
+\item  \verb./abc|xyz/.
+ \begin{enumerate}
+\item \verb|     abc|
+\item \verb|     xyz|
+\item \verb.     abc|xyz.
+\end{enumerate} 
+\item  \verb|/[a-z]+[\.\?!]/|
+ \begin{enumerate}
+\item \verb|     battle!|
+\item \verb|     Hot|
+\item \verb|     green|
+\item \verb|     swamping.|
+\item \verb|     jump up.|
+\item \verb|     undulate?|
+\item \verb|     is.?|
+ \end{enumerate}
+ \columnbreak
+\item  \verb|/[a-zA-Z]*[^,]=/|
+ \begin{enumerate}
+\item \verb|     Butt=|
+\item \verb|     BotHEr,=|
+\item \verb|     Ample|
+\item \verb|     FIdDlE7h=|
+\item \verb|     Brittle =|
+\item \verb|     Other.=|
+\end{enumerate} 
+\item  \verb|/[a-z][\.\?!]\s+[A-Z]/|
+\begin{enumerate}
+\item \verb|     A. B|
+\item \verb|     c! d|
+\item \verb|     e f|
+\item \verb|     g.   H|
+\item \verb|     i?  J|
+\item \verb|     k L|
+\end{enumerate} 
+\item  \verb|/(very )+(fat )?(tall|ugly) man/|
+ \begin{enumerate}
+\item \verb|     very fat man|
+\item \verb|     fat tall man|
+\item \verb|     very very fat ugly man|
+\item \verb|     very very very tall man|
+\end{enumerate} 
+\item  \verb|/<[^>]+>/|
+\begin{enumerate} 
+\item \verb|     <an xml tag>|
+\item \verb|     <opentag> <closetag>|
+\item \verb|     </closetag>|
+\item \verb|     <>|
+\item \verb|     <with attribute=”77”>|
+\end{enumerate}
+\end{enumerate}
+\end{multicols}
+
+\end{document}

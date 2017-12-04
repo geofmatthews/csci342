@@ -1,0 +1,69 @@
+\documentclass{article}
+\pagestyle{empty}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyvrb}
+\usepackage{multicol}
+\setlength{\parindent}{0cm}
+
+
+\begin{document}
+Name \hrulefill Number \hrulefill\\
+CSCI 342 Pop Quiz \#3
+
+Translate the following webpage to use plain Javascript without jQuery:
+
+\begin{Verbatim}[frame=single]
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+</body>
+</html>
+\end{Verbatim}
+
+\begin{Verbatim}[frame=single]
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+</body>
+</html>
+\end{Verbatim}
+
+
+\end{document}

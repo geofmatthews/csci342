@@ -1,0 +1,7 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyvrb}
+\setlength{\parindent}{0cm}
+\begin{document}
+Name \hrulefill Number \hrulefill\\
+CSCI 342 Pop Quiz \#1

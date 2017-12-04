@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  window.onload = function () {
+  var paragraphs = document.getElementsByTagName("p");
+  for (var p in paragraphs) {
+  paragraphs[p].onclick = function() { this.style.display = "none"; }
+  }
+  }
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
